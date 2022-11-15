@@ -8,15 +8,15 @@ function Login() {
             
             <div className="email-input">
                 <input type="email" />
-                <label htmlFor="">Enter email</label>
+                <label htmlFor="">Email</label>
             </div>
             <div className="psw-input">
                 <input type="password" />
-                <label htmlFor="">Enter password</label>
+                <label htmlFor="">Password</label>
             </div>
             <div className="login-btn">
                 <button className='login-button'>Login</button>
-                <h5>Create a new account? <a href="">Singn Up</a></h5>
+                <h5>Create a new account? <a href="/signup">Singn Up</a></h5>
             </div>
         </div>
     </div>

@@ -35,11 +35,9 @@
     margin-top: -0.8rem;
     background-color: #1b1c30;
     /* background-color: blue; */
-    padding-left: 0.8rem;
-    width: 7rem;
-    /* pointer-events: none; */
-    transition: 550ms cubic-bezier(0.1, 0, 0.2, 1);
-    transition-duration: 1.5s;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+  
     color: #fafafa;
     font-size: 1rem;
     letter-spacing: 0.1rem;
@@ -64,14 +62,13 @@
     margin-left: -13.3rem;
     margin-top:1.5rem;
     pointer-events: none;
-    transition: 150ms cubic-bezier(0.1, 0, 0.2, 1);
-    transition-duration: 1.5s;
+  
     font-size: 1rem;
     color: #fafafa;
     /* letter-spacing: 0.1rem; */
     background-color: #1b1c30;
     /* background-color: blue; */
-    width: 7.5rem;
+    width: 6%;
     padding-left: 0.6rem;
 }
 .login-btn{
@@ -93,8 +90,32 @@
 }
 .login-btn h5{
     margin-top: 1rem;
+    margin-right: -7rem;
+    margin-left: -2rem;
     color: #fafafa;
 }
 .login-btn a{
-    color: blue;
+    color: #fc6821;
+}
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 480px){
+    .login-container{
+        width: 90%;
+    
+    }
+      .psw-input label{
+        width: 25%;
+      }
+      .login-btn h5{
+        /* margin-top: 1rem; */
+        /* margin-left: -4rem; */
+        color: #fafafa;
+    }
+    .login-btn .login-button{
+        width: 120%;
+        margin-left: -1rem;
+       
+    }
 }
