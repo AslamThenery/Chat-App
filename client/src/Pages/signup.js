@@ -23,7 +23,7 @@ function signup() {
             </div>
             <div className="submit-group">
               <input type="submit" name="" value="Login" className='signup-login' />
-              <p>Already have an account? <a href="/login">SignIn</a></p>
+              <p>Already have an account? <a href="/home">SignIn</a></p>
             </div>
           </form>
          </div>

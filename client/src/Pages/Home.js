@@ -1,11 +1,13 @@
 import React from 'react'
+import Navbar from  "../Components/navbar";
+import ChatList from '../Components/chatList';
 
 function Home() {
   return (
     <div>
-          <h1>home    </h1>
-          <h1>login  </h1>
-          <h1>signup   </h1>
+
+         <Navbar /> 
+         <ChatList /> 
     </div>
   )
   
